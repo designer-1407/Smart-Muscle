@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetAD3_2 Pin=EMG-1
+Removed Pin From Net: NetName=NetAD3_3 Pin=EMG-2
+Removed Pin From Net: NetName=NetAD3_4 Pin=R8-1
+Removed Pin From Net: NetName=NetAD3_4 Pin=R8-2
+Removed Pin From Net: NetName=NetAD3_1 Pin=R8-3
+Change Component Designator: OldDesignator=12 NewDesignator=Free PINs
+Added Pin To Net: NetName=NetAD3_1 Pin=EMG-1
+Added Pin To Net: NetName=NetAD3_4 Pin=EMG-2
+Added Pin To Net: NetName=NetAD3_2 Pin=R8-1
+Added Pin To Net: NetName=NetAD3_2 Pin=R8-2
+Added Pin To Net: NetName=NetAD3_3 Pin=R8-3

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetDD1_6 Pin=12-1
+Removed Pin From Net: NetName=NetDD1_7 Pin=12-2
+Change Component Designator: OldDesignator=12 NewDesignator=Free PINs
+Change Component Designator: OldDesignator=Load NewDesignator=SW1
+Change Component Designator: OldDesignator=USB NewDesignator=J1
+Added Pin To Net: NetName=NetDD1_7 Pin=Free PINs-1
+Added Pin To Net: NetName=NetDD1_6 Pin=Free PINs-2
+Added Room: Name=Sheet1

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetAD2_8 Pin=AD4-3
+Added Pin To Net: NetName=NetAD4_3 Pin=AD4-3
+Added Pin To Net: NetName=NetAD4_3 Pin=On/Off-1
+Added Pin To Net: NetName=NetAD4_3 Pin=R00-1
+Added Net: Name=NetAD4_3

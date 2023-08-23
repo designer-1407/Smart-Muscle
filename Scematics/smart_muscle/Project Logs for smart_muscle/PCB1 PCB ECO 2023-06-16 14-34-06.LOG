@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=NetAD3_6 Pin=EMG-3
+Added Pin To Net: NetName=NetAD2_1 Pin=EMG-3
+Added Member To Class: ClassName=Sheet1 Member=Component Jmpr2 TSW-103-07-T-S
