@@ -2,15 +2,17 @@
 #include <espnow.h>
 #include <Wire.h>
 
-#define MCP3421_ADDR 0x68
+#define MCP3421_ADDR 0x68 
 
-#define BOARD_ID 3  
+//Each new sensor has unic ID starting from 2
+//ID 1 has main ESP
+#define BOARD_ID 1  
 
 const int analogInPin = A0;
 int emg_sensor_data = 0;
 
-//MAC Address of receiver 44:17:93:1A:04:A3
-uint8_t broadcastAddress[] = {0x44, 0x17, 0x93, 0x1a, 0x04, 0xa3};
+//MAC Address of receiver
+uint8_t broadcastAddress[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}; //!!
 
 //Must match the receiver structure
 typedef struct struct_message {
